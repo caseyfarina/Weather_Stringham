@@ -16,7 +16,7 @@ function preload() {
   
 }
 function setup() {
-  createCanvas(1280,720);
+  createCanvas(1280,900);
   loadJSON("http://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=e612b8338e7737e025c704e8bebb877b&units=imperial", gotData);
   colorsCool = [color(100,0,0),color(100,50,30),color(100,100,0,60),color(100,50,0),color(100,100,0)]
   colorsWarm = [color(239,32,48),color(239,155,119),color(217,84,50),color(143,48,48),color(11,10,9)]
